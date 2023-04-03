@@ -1,0 +1,291 @@
+[{
+        "category_name": "天网标签",
+        "category_code": "TianWangBiaoQian",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "汽车服务",
+        "category_code": "GaoDe_010000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "监控点",
+        "category_code": "JianKongDian",
+        "parent_code": "TianWangBiaoQian"
+    },
+    {
+        "category_name": "人员卡口",
+        "category_code": "RenYuanKaKou",
+        "parent_code": "TianWangBiaoQian"
+    },
+    {
+        "category_name": "警用标签",
+        "category_code": "JingYongBiaoQian",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "行业标签",
+        "category_code": "HangYeBiaoQian",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "车辆卡口",
+        "category_code": "CheLiangKaKou",
+        "parent_code": "TianWangBiaoQian"
+    },
+    {
+        "category_name": "移动标签",
+        "category_code": "YiDongBiaoQian",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "重点人员",
+        "category_code": "ZhongDianRenYuan",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "实有房屋",
+        "category_code": "ShiYouFangWu",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "网格标签",
+        "category_code": "WangGeBiaoQian",
+        "parent_code": "SuoYouBiaoQian"
+    },
+    {
+        "category_name": "汽车销售",
+        "category_code": "GaoDe_020000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "4G执法仪",
+        "category_code": "ZhiFaYi",
+        "parent_code": "YiDongBiaoQian"
+    },
+    {
+        "category_name": "警力点",
+        "category_code": "JingLiDian",
+        "parent_code": "JingYongBiaoQian"
+    },
+    {
+        "category_name": "泽明的",
+        "category_code": "ZeMing",
+        "parent_code": "BiaoQianGuanLi"
+    },
+    {
+        "category_name": "350M对讲机",
+        "category_code": "350MDuiJiangJi",
+        "parent_code": "YiDongBiaoQian"
+    },
+    {
+        "category_name": "4G布控球",
+        "category_code": "4GBuKongQiu",
+        "parent_code": "YiDongBiaoQian"
+    },
+    {
+        "category_name": "执勤民警",
+        "category_code": "ZhiQinMinJing",
+        "parent_code": "JingYongBiaoQian"
+    },
+    {
+        "category_name": "所有标签",
+        "category_code": "SuoYouBiaoQian",
+        "parent_code": "root"
+    },
+    {
+        "category_name": "手机APP",
+        "category_code": "ShouJiAPP",
+        "parent_code": "YiDongBiaoQian"
+    },
+    {
+        "category_name": "APP标签",
+        "category_code": "APPBiaoQian",
+        "parent_code": "approot"
+    },
+    {
+        "category_name": "治安亭",
+        "category_code": "ZhiAnTing",
+        "parent_code": "APPBiaoQian"
+    },
+    {
+        "category_name": "社会治安亭",
+        "category_code": "SheHuiZhiAnTing",
+        "parent_code": "ZhiAnTing"
+    },
+    {
+        "category_name": "其他社会资源",
+        "category_code": "othersocialresources",
+        "parent_code": "SheHuiZiYuan"
+    },
+    {
+        "category_name": "案件相关",
+        "category_code": "AnJianXiangGuan",
+        "parent_code": "GeRen"
+    },
+    {
+        "category_name": "商场及酒店",
+        "category_code": "shoppingandhotel",
+        "parent_code": "SheHuiZiYuan"
+    },
+    {
+        "category_name": "社会资源",
+        "category_code": "SheHuiZiYuan",
+        "parent_code": "APPBiaoQian"
+    },
+    {
+        "category_name": "其他",
+        "category_code": "QiTa",
+        "parent_code": "GeRen"
+    },
+    {
+        "category_name": "警方线索",
+        "category_code": "JingFangXianSuo",
+        "parent_code": "APPBiaoQian"
+    },
+    {
+        "category_name": "待办事项",
+        "category_code": "DaiBanShiXiang",
+        "parent_code": "GeRen"
+    },
+    {
+        "category_name": "学校及医院",
+        "category_code": "schoolandhostipal",
+        "parent_code": "SheHuiZiYuan"
+    },
+    {
+        "category_name": "公共交通",
+        "category_code": "commontraffic",
+        "parent_code": "SheHuiZiYuan"
+    },
+    {
+        "category_name": "银行及金铺",
+        "category_code": "bandandjinpu",
+        "parent_code": "SheHuiZiYuan"
+    },
+    {
+        "category_name": "警用治安亭",
+        "category_code": "JingYongZhiAnTing",
+        "parent_code": "ZhiAnTing"
+    },
+    {
+        "category_name": "个人",
+        "category_code": "GeRen",
+        "parent_code": "APPBiaoQian"
+    },
+    {
+        "category_name": "其他警方信息",
+        "category_code": "QiTaJingFangXinXi",
+        "parent_code": "APPBiaoQian"
+    },
+    {
+        "category_name": "日常记录",
+        "category_code": "RiChangJiLu",
+        "parent_code": "GeRen"
+    },
+    {
+        "category_name": "汽车维修",
+        "category_code": "GaoDe_030000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "摩托车服务",
+        "category_code": "GaoDe_040000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "餐饮服务",
+        "category_code": "GaoDe_050000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "购物服务",
+        "category_code": "GaoDe_060000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "生活服务",
+        "category_code": "GaoDe_070000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "体育休闲服务",
+        "category_code": "GaoDe_080000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "医疗保健服务",
+        "category_code": "GaoDe_090000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "住宿服务",
+        "category_code": "GaoDe_100000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "风景名胜",
+        "category_code": "GaoDe_110000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "商务住宅",
+        "category_code": "GaoDe_120000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "政府机构及社会团体",
+        "category_code": "GaoDe_130000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "科教文化服务",
+        "category_code": "GaoDe_140000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "交通设施服务",
+        "category_code": "GaoDe_150000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "金融保险服务",
+        "category_code": "GaoDe_160000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "公司企业",
+        "category_code": "GaoDe_170000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "道路附属设施",
+        "category_code": "GaoDe_180000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "地名地址信息",
+        "category_code": "GaoDe_190000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "公共设施",
+        "category_code": "GaoDe_200000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "事件活动",
+        "category_code": "GaoDe_220000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "室内设施",
+        "category_code": "GaoDe_970000",
+        "parent_code": "HangYeBiaoQian"
+    },
+    {
+        "category_name": "通行设施",
+        "category_code": "GaoDe_990000",
+        "parent_code": "HangYeBiaoQian"
+    }
+]

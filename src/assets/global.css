@@ -1,0 +1,203 @@
+/* stylelint-disable color-function-notation */
+
+
+/* stylelint-disable comment-empty-line-before */
+
+
+/* stylelint-disable declaration-empty-line-before */
+
+html,
+body {
+    height: 100%;
+    min-width: 1920px;
+    min-height: 1080px;
+    font-size: 16px;
+    color: #fff;
+    background: url('../assets/image/shouye_bg.png') no-repeat;
+    background-color: #000
+    /* border:1px solid; */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* Chrome Safari */
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    @apply bg-gray-300;
+}
+
+
+/* 页面头部样式 */
+
+.header {
+    @apply w-full flex items-center justify-between w-full h-67px;
+    background: url('../assets/image/Slice17.png') no-repeat;
+}
+
+.header-center {
+    @apply text-center text-30px leading-5 w-792px h-25px;
+    color: #11f7ff;
+    background: url('../assets//image/shouye_decorate.png') no-repeat;
+}
+
+.main-chart-box .left-box {
+    @apply mr-20px;
+    /* @apply w-470px h-666px; */
+}
+
+.main-chart-box .right-box {
+    /* @apply mr-20px; */
+}
+
+.main-chart-box .center-box {
+    @apply mr-5px;
+    /* @apply w-900px h-666px; */
+}
+
+.main-chart-box .b-chart {
+    /* @apply w-450px h-312px; */
+    @apply w-468px h-310px;
+    background: url('../assets/image/Group77.png') no-repeat;
+    background-size: 100%;
+}
+
+.main-chart-box .b-charts {
+    @apply w-455px h-310px;
+    background: url('../assets/image/Group77.png') no-repeat;
+    background-size: cover;
+}
+
+.main-chart-box .left-box .b-chart {
+    @apply h-310px;
+}
+
+.main-chart-box .center-box .b-chart {
+    @apply h-284px;
+}
+
+.main-chart-box .right-box .b-chart {
+    @apply h-310px;
+}
+
+.main-chart-box .left-div {
+    /* @apply w-600px h-333px m-20px; */
+    @apply w-609px h-333px mr-20px;
+    background: url('../assets/image/Group79.png') no-repeat;
+    background-size: cover;
+}
+
+.main-chart-box .right-div {
+    @apply w-710px h-333px;
+    background: url('../assets/image/Group82.png') no-repeat;
+    background-size: cover;
+}
+
+.main-chart-box .center-div {
+    /* @apply w-470px h-333px; */
+    @apply w-527px h-333px mr-20px;
+    background: url('../assets/image/Group81.png') no-repeat;
+    background-size: cover;
+}
+
+.main-chart-box .left-div .b-chart {
+    @apply h-329px;
+}
+
+.main-chart-box .center-div .b-chart {
+    @apply h-329px;
+}
+
+.main-chart-box .right-div .b-chart {
+    @apply h-329px;
+}
+
+.main-chart-box .box-title {
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+
+/* 企业疫苗检测页面 */
+
+.qiyeyimiao .table-box {
+    @apply my-0 mx-auto w-650px table-fixed;
+}
+
+.qiyeyimiao .table-box .tb-tr td {
+    @apply py-10px text-center;
+}
+
+.qiyeyimiao .table-box-h .tb-tr-h {
+    background: #074c96;
+    height: 40px;
+}
+
+.qiyeyimiao .table-box-h .tb-tr-h td {
+    text-align: center;
+}
+
+.qiyeyimiao .table-box .tb-tr span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+.qiyeyimiao .table-box .tb-tr .span1,
+.table-box .tb-tr .span4,
+.table-box .tb-tr .span7,
+.table-box .tb-tr .span10 {
+    border: 2px solid #e782e2;
+    background: #ff11f5;
+}
+
+.qiyeyimiao .table-box .tb-tr .span2,
+.table-box .tb-tr .span5,
+.table-box .tb-tr .span8 {
+    border: 2px solid #86dfb1;
+    background: #28fe90;
+}
+
+.qiyeyimiao .table-box .tb-tr .span3,
+.table-box .tb-tr .span6,
+.table-box .tb-tr .span9 {
+    border: 2px solid #61e3e7;
+    background: #2af1f8;
+}
+
+.qiyeyimiao .table-box .two_tr {
+    background: rgba(0 72 168 / 50%);
+}
+
+
+/* 人脸识别信息 */
+
+.shibie-info .imgbox {
+    @apply w-100px h-135px float-left cursor-pointer;
+    background-size: cover !important;
+}
+
+.shibie-info .imgbox:hover {
+    border: 2px solid rgba(0, 255, 255);
+}
+
+.shibie-info .text-info .span1 {
+    @apply float-left text-left;
+    width: 50%;
+}
+
+.shibie-info .text-info .span2 {
+    width: 50%;
+}

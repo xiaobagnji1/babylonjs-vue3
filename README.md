@@ -1,37 +1,76 @@
-# babylonjs-vue3
+#高德地图api
 
-#### 介绍
-使用vue3+vite+babylonjs实现的一些小demo
+## 技术说明
 
-#### 软件架构
-软件架构说明
+本项目采用[vue3](https://v3.cn.vuejs.org/)框架和[vite](https://vitejs.dev/)构建工具。
 
+数据请求使用[axios](http://www.axios-js.com/)。
 
-#### 安装教程
+数据请求库[vue-request](https://www.attojs.com/)。
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+路由使用自动化的[vue-router](https://router.vuejs.org/)库。
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+CSS 使用[windicss](https://windicss.org/)封装的[tailwindcss](https://www.tailwindcss.cn/)。
 
 
-#### 特技1
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+## 目录结构
+
+- .editorconfig, .prettierrc.yml, .prettierignore - 代码风格控制
+- .eslintrc.js, .eslintignore, .stylelintrc.yml, .stylelintignore - 代码质量控制
+- Dockerfile, .dockerignore, default.conf - 镜像打包配置
+- index.html - 首页
+- public - 运行期根目录
+- src/main.js - 入口
+- src/App.vue - 根组件
+- src/assets - 静态资源文件夹
+- src/pages - 路由目录（每个不是以下划线开头的文件对应一个前端路由）
+- src/layouts - 路由出口目录
+- src/layouts/default.vue -默认路由出口 
+- src/layouts/empty.vue -错误页面路由出口 
+- src/pages/[...all].vue - 404 页面
+- src/pages/index.vue - 首页
+- src/store - 数据访问
+- src/components - 组件目录
+- src/util - 通用工具
+## node版本
+16.1.0
+
+## 脚本说明
+
+1. 依赖安装/同步
+
+```sh
+yarn
+```
+
+2. 依赖升级
+
+```sh
+yarn update
+```
+
+3. 代码检查
+
+```
+yarn lint
+```
+
+4. 开发调试
+
+```sh
+yarn dev
+```
+
+5. 打包编译
+
+```sh
+yarn build
+```
+
+6. 生成镜像
+
+```sh
+docker build -t <镜像名>:<版本号> .
+```
